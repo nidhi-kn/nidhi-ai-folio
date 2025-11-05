@@ -26,7 +26,7 @@ const Index = () => {
       </main>
       <footer className="bg-muted/30 py-8 text-center text-muted-foreground">
         <div className="container px-4">
-          <p>© 2024 CDT Nidhi K N. All rights reserved.</p>
+          <p>© 2024 Nidhi K N. All rights reserved.</p>
         </div>
       </footer>
     </div>

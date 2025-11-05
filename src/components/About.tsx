@@ -53,7 +53,8 @@ const About = () => {
                 <div className="space-y-2 text-sm text-muted-foreground">
                   <p><strong className="text-foreground">10th CBSE:</strong> 94%</p>
                   <p><strong className="text-foreground">12th CBSE:</strong> 80%</p>
-                  <p><strong className="text-foreground">1st Sem SGPA:</strong> 9.2</p>
+                  <p><strong className="text-foreground">Current CGPA:</strong> 9.0</p>
+                  <p><strong className="text-foreground">TIE Member:</strong> Yes</p>
                 </div>
               </div>
             </Card>

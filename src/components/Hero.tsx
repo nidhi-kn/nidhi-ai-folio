@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
               <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-                CDT NIDHI K N
+                NIDHI K N
               </span>
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground font-medium">
