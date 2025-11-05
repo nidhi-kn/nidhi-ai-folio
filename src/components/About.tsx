@@ -1,18 +1,26 @@
 import { Card } from "@/components/ui/card";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { GraduationCap, Users, Award } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const About = () => {
   return (
     <section id="about" className="py-20 bg-muted/30">
       <div className="container px-4">
         <div className="max-w-6xl mx-auto space-y-12">
-          <div className="text-center space-y-4 animate-fade-up">
-            <h2 className="text-4xl md:text-5xl font-bold">
-              About <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Me</span>
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              I'm passionate about AI, leadership, and innovation. I love solving real-world problems through technology and teamwork.
-            </p>
+          <div className="text-center space-y-6 animate-fade-up">
+            <Avatar className="w-32 h-32 mx-auto border-4 border-primary/20 shadow-lg">
+              <AvatarImage src={profilePhoto} alt="Nidhi K N" className="object-cover" />
+              <AvatarFallback>NK</AvatarFallback>
+            </Avatar>
+            <div className="space-y-4">
+              <h2 className="text-4xl md:text-5xl font-bold">
+                About <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Me</span>
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                I'm passionate about AI, leadership, and innovation. I love solving real-world problems through technology and teamwork.
+              </p>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
