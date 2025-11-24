@@ -37,11 +37,20 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-            <Button size="lg" className="group">
+            <Button 
+              size="lg" 
+              className="group"
+              onClick={() => window.open('/resume.pdf', '_blank')}
+            >
               <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
               View Resume
             </Button>
-            <Button size="lg" variant="outline" className="group">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="group"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Contact Me
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>

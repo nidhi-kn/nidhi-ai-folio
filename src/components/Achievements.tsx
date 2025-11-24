@@ -20,6 +20,21 @@ const achievements = [
     icon: Trophy,
   },
   {
+    title: "MERN Stack Certificate",
+    organization: "Full Stack Development",
+    icon: BookOpen,
+  },
+  {
+    title: "Apache Spark for Java Developers",
+    organization: "Big Data Technology",
+    icon: Award,
+  },
+  {
+    title: "NCC B Certificate",
+    organization: "National Cadet Corps",
+    icon: Trophy,
+  },
+  {
     title: "Startup Bootcamp Participation",
     organization: "Entrepreneurship Program",
     icon: Rocket,

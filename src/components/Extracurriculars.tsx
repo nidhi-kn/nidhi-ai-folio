@@ -8,11 +8,13 @@ const extracurriculars = {
     "Dance Choreography",
     "Semi-classical Performances",
     "Solo Dance & Singing (Republic Day)",
+    "Flash Mob (Interact)",
   ],
   sports: [
     "Tennis - Intermediate (Tennis Temple)",
     "Kho Kho - State Level Runner-up (College Team)",
     "Karate - Brown Belt (Ashok Karate Academy)",
+    "Basketball - South Zone (College Team)",
   ],
   leadership: [
     "3 MUN Conferences (1 as Press Reporter)",
@@ -27,7 +29,6 @@ const extracurriculars = {
     "5K Run",
     "Environment Day",
     "Sadhguru ISHA Foundation",
-    "Flash Mob (Interact)",
     "Swachh Bharat Abhiyan",
   ],
 };
