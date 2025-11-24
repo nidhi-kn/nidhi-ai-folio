@@ -33,7 +33,6 @@ const About = () => {
                 <div className="space-y-2 text-sm text-muted-foreground">
                   <p><strong className="text-foreground">College:</strong> Global Academy of Technology</p>
                   <p><strong className="text-foreground">Degree:</strong> B.E. in AI & Data Science</p>
-                  <p><strong className="text-foreground">Reg No:</strong> KA2023SWA018341</p>
                 </div>
               </div>
             </Card>

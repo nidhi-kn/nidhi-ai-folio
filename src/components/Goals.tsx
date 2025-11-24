@@ -73,8 +73,8 @@ const Goals = () => {
                   <div className="flex items-start gap-3 p-4 rounded-lg bg-background/50 hover:bg-background/80 transition-colors">
                     <Target className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1">Armed Forces</h4>
-                      <p className="text-sm text-muted-foreground">Serve the nation through military service</p>
+                      <h4 className="font-semibold mb-1">Software Developer</h4>
+                      <p className="text-sm text-muted-foreground">Build innovative software solutions and applications</p>
                     </div>
                   </div>
                 </div>
