@@ -40,7 +40,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="group"
-              onClick={() => window.open('/resume.pdf', '_blank')}
+              onClick={() => window.open('/resume.docx', '_blank')}
             >
               <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
               View Resume
